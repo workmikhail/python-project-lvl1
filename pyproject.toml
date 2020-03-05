@@ -1,12 +1,13 @@
 [tool.poetry]
 name = "workmixail_brain_games"
-version = "0.1.0"
+version = "0.2.0"
 description = ""
 authors = ["Your Name <you@example.com>"]
 packages = [   { include = "brain_games" }, ]
 
 [tool.poetry.dependencies]
-python = "3.6.10"
+python = "^3.6.10"
+prompt = "^0.4.1"
 
 [tool.poetry.dev-dependencies]
 
