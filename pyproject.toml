@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "workmixail_brain_games"
-version = "0.2.0"
+version = "0.3.0"
 description = ""
 authors = ["Your Name <you@example.com>"]
 packages = [   { include = "brain_games" }, ]
@@ -10,6 +10,7 @@ python = "^3.6.10"
 prompt = "^0.4.1"
 
 [tool.poetry.dev-dependencies]
+wemake-python-styleguide = "^0.13.4"
 
 [tool.poetry.scripts]
 brain-games = "brain_games.scripts.brain_games:main"
