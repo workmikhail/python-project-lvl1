@@ -1,4 +1,5 @@
-#!/usr/bin/env python3.6
+"""module contains functions of brain games script."""
+# coding: utf-8
 
 from brain_games import cli
 
