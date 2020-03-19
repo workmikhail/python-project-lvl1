@@ -1,4 +1,0 @@
-# cli.py
-def welcome_user():
-    0name = prompt.string(prompt = 'May I have your name?', empty = False)
-    print('Hello, ' + name + '!')
