@@ -5,4 +5,4 @@
 [![Build Status](https://travis-ci.com/workmikhail/python-project-lvl1.svg?branch=master)](https://travis-ci.com/workmikhail/python-project-lvl1)
 
 <p>You can use this instruction for installing and starting game</p>
-<script src="https://asciinema.org/a/d9ZCSsQ41TlIyeSHCbSPtd3hY" id="asciicast-d9ZCSsQ41TlIyeSHCbSPtd3hY" async></script>
+<a href="https://asciinema.org/a/d9ZCSsQ41TlIyeSHCbSPtd3hY" target="_blank"><img src="https://asciinema.org/a/d9ZCSsQ41TlIyeSHCbSPtd3hY.svg" /></a>
