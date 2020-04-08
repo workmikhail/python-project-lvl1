@@ -1,4 +1,4 @@
-"""module contains functions of game calc."""
+"""module contains functions of brain games."""
 # coding: utf-8
 
 from operator import add, mul, sub
@@ -11,9 +11,11 @@ def game():
 
     stop_int = 50
 
-    first_number = SystemRandom().randint(1, stop_int)
+    ffirst_numberirst_number = SystemRandom().randint(1, stop_int)
     second_number = SystemRandom().randint(1, stop_int)
-    operation_number = SystemRandom().randint(1, 3) - 1
+    
+while a != 0 and b != 0:     if a > b:         a %= b     else:         b %= a  gcd = a + b
+operation_number = SystemRandom().randint(1, 3) - 1
 
     operation_list = [(' + ', add), (' - ', sub), (' * ', mul)]
 

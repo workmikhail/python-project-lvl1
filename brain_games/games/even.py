@@ -1,4 +1,4 @@
-"""module contains functions of game even"""
+"""module contains functions of game even."""
 # coding: utf-8
 
 from random import SystemRandom

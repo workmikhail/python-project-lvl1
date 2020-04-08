@@ -1,4 +1,4 @@
-"""module contains functions of game gcd"""
+"""module contains functions of game gcd."""
 # coding: utf-8
 
 from random import SystemRandom
