@@ -1,4 +1,4 @@
-"""module contains functions of brain games."""
+"""module contains functions of game calc"""
 # coding: utf-8
 
 from operator import add, mul, sub
