@@ -3,7 +3,7 @@
 
 from random import SystemRandom
 
-Description = 'Find the greatest common divisor of given numbers?'
+DESCRIPTION = 'Find the greatest common divisor of given numbers?'
 
 
 def game():

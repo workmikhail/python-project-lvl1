@@ -6,7 +6,10 @@ from brain_games import cli
 
 def run_game(game):
 
-    name = cli.welcome_user(game.Description)
+    print('Welcome to the Brain Games!')
+    print(game.DESCRIPTION)
+    name = cli.welcome_user()
+
     counter = 0
     number_of_rounds = 3
     while counter < number_of_rounds:

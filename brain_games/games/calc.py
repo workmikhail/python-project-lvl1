@@ -4,7 +4,7 @@
 from operator import add, mul, sub
 from random import SystemRandom
 
-Description = 'What is the result of the expression?'
+DESCRIPTION = 'What is the result of the expression?'
 
 
 def game():

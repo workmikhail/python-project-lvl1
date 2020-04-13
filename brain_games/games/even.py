@@ -3,7 +3,7 @@
 
 from random import SystemRandom
 
-Description = 'Answer "yes" if number even otherwise answer "no".'
+DESCRIPTION = 'Answer "yes" if number even otherwise answer "no".'
 
 
 def game():
