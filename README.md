@@ -4,21 +4,20 @@
 
 [![Build Status](https://travis-ci.com/workmikhail/python-project-lvl1.svg?branch=master)](https://travis-ci.com/workmikhail/python-project-lvl1)
 
-<p>You can use this instructions for installing and starting game</p>
-<p>Install games</p>
+<p>You can use this instructions for installing and starting games</p>
 <a href="https://asciinema.org/a/DWLRmsvc8AGB6mJ45U7tjAHZq" target="_blank"><img src="https://asciinema.org/a/DWLRmsvc8AGB6mJ45U7tjAHZq.svg" /></a>
 
-<p>Brain even</p> 
-<a href="https://asciinema.org/a/HWI8gsz6MJ9F31AYyt66WaAID" target="_blank"><img src="https://asciinema.org/a/HWI8gsz6MJ9F31AYyt66WaAID.svg" /></a>
+<p>Brain-even</p>
+<a href="https://asciinema.org/a/d9ZCSsQ41TlIyeSHCbSPtd3hY" target="_blank"><img src="https://asciinema.org/a/d9ZCSsQ41TlIyeSHCbSPtd3hY.svg" /></a>
 
-<p>Brain calc</p> 
-<a href="https://asciinema.org/a/LORJF89kWtJoFjTIXGGBUTB5z" target="_blank"><img src="https://asciinema.org/a/LORJF89kWtJoFjTIXGGBUTB5z.svg" /></a>
+<p>Brain-calc</p> 
+<a href="https://asciinema.org/a/DvJB4ZrpxBV6LsxF2ZvIlGYOr" target="_blank"><img src="https://asciinema.org/a/DvJB4ZrpxBV6LsxF2ZvIlGYOr.svg" /></a>
 
-<p>Brain gcd</p>
-<a href="https://asciinema.org/a/yAlx8fai8ZshIoc1kpiXglUeH" target="_blank"><img src="https://asciinema.org/a/yAlx8fai8ZshIoc1kpiXglUeH.svg" /></a>
+<p>Brain-gcd</p>
+<a href="https://asciinema.org/a/gBPFyJMORwDB9jx5x5w6T5l4G" target="_blank"><img src="https://asciinema.org/a/gBPFyJMORwDB9jx5x5w6T5l4G.svg" /></a>
 
-<p>Brain progression</p>
-<a href="https://asciinema.org/a/AYr9Sx0akHDLQLitIb30N4WH9" target="_blank"><img src="https://asciinema.org/a/AYr9Sx0akHDLQLitIb30N4WH9.svg" /></a>
+<p>Brain-progression</p>
+<a href="https://asciinema.org/a/cvblZayDO5DOGEiKBJLanZQFO" target="_blank"><img src="https://asciinema.org/a/cvblZayDO5DOGEiKBJLanZQFO.svg" /></a>
 
-<p>Brain prime</p> 
-<a href="https://asciinema.org/a/rLGGCG2kPO4j7tvtkBwnNFTzK" target="_blank"><img src="https://asciinema.org/a/rLGGCG2kPO4j7tvtkBwnNFTzK.svg" /></a>
+<p>Brain-prime</p>
+<a href="https://asciinema.org/a/2o8lJmYjQz9khcOGBoOR31irL" target="_blank"><img src="https://asciinema.org/a/2o8lJmYjQz9khcOGBoOR31irL.svg" /></a>
