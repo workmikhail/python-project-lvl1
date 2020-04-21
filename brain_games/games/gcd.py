@@ -1,23 +1,26 @@
 """module contains functions of game gcd."""
 # coding: utf-8
 
-from random import SystemRandom
+import random
 
 DESCRIPTION = 'Find the greatest common divisor of given numbers?'
+MAX_NUMBER = 50
 
 
-def game():
+def generate():
 
-    stop_int = 50
-    first_number = SystemRandom().randint(2, stop_int)
-    second_number = SystemRandom().randint(2, stop_int)
+    first_number = random.randint(2, MAX_NUMBER)
+    second_number = random.randint(2, MAX_NUMBER)
 
-    question = '{0}{1}{2}{3}'.format(
-        'Question: ',
+    question = '{0} {1}'.format(
         first_number,
-        ' ',
         second_number,
     )
+
+    return question, get_gcd(first_number, second_number)
+
+
+def get_gcd(first_number, second_number):
 
     while first_number != 0 and second_number != 0:
         if first_number > second_number:
@@ -25,6 +28,4 @@ def game():
         else:
             second_number %= first_number
 
-    gcd = first_number + second_number
-
-    return question, str(gcd)
+    return first_number + second_number

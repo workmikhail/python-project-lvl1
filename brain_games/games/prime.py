@@ -1,25 +1,37 @@
-"""module contains functions of game even."""
 # coding: utf-8
 
-from operator import mod
-from random import SystemRandom
+"""Module contains functions of game even."""
+
+import operator
+import random
+from math import sqrt
 
 DESCRIPTION = 'Answer "yes" if number even otherwise answer "no".'
+MAX_NUMBER = 99
 
 
-def game():
+def generate():
 
-    stop_int = 99
-    dividend = SystemRandom().randint(1, stop_int)
-    divider = 2
-    while divider * divider <= dividend and mod(dividend, divider) != 0:
-        divider += 1
+    dividend = random.randint(1, MAX_NUMBER)
 
-    question = '{0}{1}'.format('Question: ', dividend)
-
-    if divider * divider > dividend:
+    if is_prime(dividend):
         correct_answer = 'yes'
     else:
         correct_answer = 'no'
 
-    return question, correct_answer
+    return str(dividend), correct_answer
+
+
+def is_prime(dividend):
+
+    if dividend == 2:
+        return True
+
+    divider = 2
+    while divider <= sqrt(dividend):
+        if operator.mod(dividend, divider) == 0:
+            return False
+
+        divider += 1
+
+    return True

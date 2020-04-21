@@ -1,26 +1,26 @@
-"""module contains functions of game calc."""
 # coding: utf-8
 
-from operator import add, mul, sub
-from random import SystemRandom
+"""Module contains functions of game calc."""
+
+import operator
+import random
 
 DESCRIPTION = 'What is the result of the expression?'
+MAX_NUMBER = 50
+OPERATION_LIST = (
+    (' + ', operator.add),
+    (' - ', operator.sub),
+    (' * ', operator.mul),
+)
 
 
-def game():
+def generate():
+    first_number = random.randint(1, MAX_NUMBER)
+    second_number = random.randint(1, MAX_NUMBER)
 
-    stop_int = 50
+    operation, function = random.choice(OPERATION_LIST)
 
-    first_number = SystemRandom().randint(1, stop_int)
-    second_number = SystemRandom().randint(1, stop_int)
-    operation_number = SystemRandom().randint(1, 3) - 1
-
-    operation_list = [(' + ', add), (' - ', sub), (' * ', mul)]
-
-    operation, function = operation_list[operation_number]
-
-    question = '{0}{1}{2}{3}'.format(
-        'Question: ',
+    question = '{0}{1}{2}'.format(
         first_number,
         operation,
         second_number,

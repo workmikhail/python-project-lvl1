@@ -1,42 +1,41 @@
-"""module contains functions of game progression."""
 # coding: utf-8
 
-from random import SystemRandom
+"""Module contains functions of game progression."""
+
+import random
 
 DESCRIPTION = 'What number is missing in the progression?'
+MAX_NUMBER = 10
 
 
-def game():
+def generate():
 
-    start_number = SystemRandom().randint(1, 10)
-    progression_step = SystemRandom().randint(1, 10)
-    position_in_progression = SystemRandom().randint(1, 10)
+    start_number = random.randint(1, MAX_NUMBER)
+    progression_step = random.randint(1, MAX_NUMBER)
+    position_in_progression = random.randint(1, MAX_NUMBER)
 
-    progression_list = list(range(
+    progression_numbers = list(range(
         start_number,
         start_number + progression_step * 10,
         progression_step,
     ))
-    answer = progression_list[position_in_progression - 1]
-    progression_list[position_in_progression - 1] = '...'
-
-    question = get_question(progression_list)
-    return question, str(answer)
-
-
-def get_question(list_of_progression):
 
     progression = ''
-    space = ''
-    max_step = len(list_of_progression)
-    for counter in range(0, max_step, 1):
-        if counter > 0:
-            space = ' '
+    first_step = True
+    counter = 1
+    for elem in progression_numbers:
+        if counter == position_in_progression:
+            answer = str(elem)
+            element = '...'
+        else:
+            element = str(elem)
 
-        progression = '{0}{1}{2}'.format(
-            progression,
-            space,
-            list_of_progression[counter],
-        )
+        if first_step:
+            progression = element
+            first_step = False
+        else:
+            progression += ' ' + element
 
-    return '{0}{1}'.format('Question: ', progression)
+        counter += 1
+
+    return progression, str(answer)

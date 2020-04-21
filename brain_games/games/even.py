@@ -1,20 +1,19 @@
-"""module contains functions of game even."""
 # coding: utf-8
 
-from random import SystemRandom
+"""Module contains functions of game even."""
+
+import random
 
 DESCRIPTION = 'Answer "yes" if number even otherwise answer "no".'
+MAX_NUMBER = 99
 
 
-def game():
+def generate():
+    random_number = random.randint(1, MAX_NUMBER)
 
-    stop_int = 99
-    random_number = SystemRandom().randint(1, stop_int)
-
-    question = '{0}{1}'.format('Question: ', random_number)
     if random_number % 2 == 0:
         correct_answer = 'yes'
     else:
         correct_answer = 'no'
 
-    return question, correct_answer
+    return random_number, correct_answer

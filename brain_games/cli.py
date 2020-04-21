@@ -12,6 +12,6 @@ def welcome_user():
     return name
 
 
-def get_answer(question):
+def ask_question(question):
     print(question)
     return prompt.string('Your answer: ')

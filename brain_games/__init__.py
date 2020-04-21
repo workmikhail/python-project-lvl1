@@ -1,2 +1,3 @@
-"""module __init__.py."""
 # coding: utf-8
+
+"""Module __init__.py."""
